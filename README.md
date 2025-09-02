@@ -1,1 +1,10 @@
-# -program-to-display-Welcome-to-C-Programming-using-a-separate-user-defined-function
+void displaymessage();
+
+
+int main(){
+    displaymessage();
+    return 0;
+}
+void displaymessage(){
+   printf("welcome to C programming");
+}    
